@@ -1,11 +1,11 @@
 def my_select(array)
-count = 0
+index = 0
 result = []
  while count < array.size
-  if yield(array[count]) == true
-  result.push(array[count])
+  if yield(array[index]) == true
+  result.push(array[index])
 end
-  count+=1
+  index+=1
 end
 result
-end 
+end
