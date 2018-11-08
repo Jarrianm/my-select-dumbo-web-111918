@@ -1,7 +1,7 @@
 def my_select(array)
 index = 0
 result = []
- while count < array.size
+ while index < array.size
   if yield(array[index]) == true
   result.push(array[index])
 end
